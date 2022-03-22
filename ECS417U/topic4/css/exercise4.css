@@ -1,0 +1,12 @@
+fieldset{
+    background-color: lightcyan;
+}
+section, main, div{
+    font-size: 12;
+    font-family: 'Times New Roman';
+    border: solid 2pt black;
+}
+legend{
+    font-size: 20;
+    font-weight: bold;
+}

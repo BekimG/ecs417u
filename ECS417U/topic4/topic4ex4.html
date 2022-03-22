@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirt Orders</title>
+    <link rel="stylesheet" href="css/exercise4.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+<body>
+    <form method="POST" action="http://webprojects.eecs.qmul.ac.uk/un300/week4/week4_process.php">
+    <fieldset>
+    <legend>Shirt Order Form</legend>
+    <main>
+    <label>Shirt size</label>
+    <select name="size">
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+    </select>
+    <p>
+        <label>Sleeves</label>
+        <input type="radio" name="sleeve" value="Short" checked>Short<br>
+        <input type="radio" name="sleeve" value="Long">Long<br>
+
+    </p>
+    <p>
+    <label>Choose shirt colour</label>
+    <select name="colour">
+    <input type="color" name="colour">
+    </p>
+    <p>
+        <label>Quantity</label>
+        <input type="number" min="1" max="10" name="quantity">
+    </p>
+    <p>
+        <label>Date Requested</label>
+        <input type="date" name="date">
+    </p>
+    </main>
+    <section>
+    <p>
+        <label>Name</label>
+        <input type="text" name="name">
+    </p>
+    <p>
+        <label>Email</label>
+        <input type="email" name="email">
+    </p>
+    <p>
+        <label>Telephone</label>
+        <input type="text" pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone"> Example: 44-207-882-1234
+    </p>
+    </section>
+    <div>
+    <p>
+        <label>Address</label>
+        <input type="text" name="address">
+    </p>
+    <p>
+        <label>City</label>
+        <input type="text" name="city" list="cities">
+        <datalist id="cities">
+            <option>London</option>
+            <option>Manchester</option>
+            <option>Liverpool</option>
+            <option>Bristol</option>
+        </datalist>
+    </p>
+    <p>
+        <label>Postcode</label>
+        <input type="text" name="postcode">
+    </p>
+    </div>
+    <p>
+        <label>Please keep me informed about future shirt offerings</label>
+        <input type="checkbox" name="inform">
+    </p>
+    
+    <p>
+        <input type="submit" name="send">
+    </p>
+</fieldset>
+</form>
+</body>
+</html>

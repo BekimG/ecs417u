@@ -1,0 +1,25 @@
+aside{
+    position: absolute;
+    right: 0;
+    top: 10;
+    width: 25%;
+    background-color: lightcyan;
+}
+
+div{
+    margin-left: 25em;
+    margin-right: 25em;
+    background-color: aliceblue;
+}
+nav{
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 25%;
+    background-color: lightcyan;
+}
+header{
+    display: block;
+    background-color: lightblue;
+    
+}

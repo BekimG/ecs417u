@@ -1,0 +1,13 @@
+header{
+    background-color: lightblue;
+    color: white;
+}
+.col-md-3{
+    background-color: lightcyan;
+    font-size: small;
+    
+}
+.col-md-6{
+    font-size: medium;
+    background-color: aliceblue
+}

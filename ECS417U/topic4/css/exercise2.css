@@ -1,0 +1,27 @@
+table{
+    font-size: 12;
+    color: white;
+    font-family: 'Times New Roman';
+    border: solid 1pt white;
+}
+caption{
+    font-size: 20;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: left;
+    color: white;
+    background-color: darkblue;
+  }
+th{
+    background-color: lightblue;
+    border: solid 1pt white;
+}
+tbody tr{
+    background-color: darkgrey;
+    border-bottom: 1px solid white;
+}
+tbody td{
+    border: solid 1pt white;
+    border-spacing: 0;
+    border-right: solid 1pt white;
+}
